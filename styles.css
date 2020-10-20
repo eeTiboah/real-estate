@@ -416,6 +416,17 @@ body{
     border-radius: 10px;
 }
 
+.submit_button{
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 10%;
+    height: 60px;
+    border: 10px;
+    background-color: #101d2c;
+    border-radius: 10px;
+}
+
 /* FOOTER */
 .footer {
     background-color: #101d2c;
@@ -443,7 +454,6 @@ body{
     
 .nav__link:hover, .nav__link:active {
     background-color: rgba(255, 255, 255, 0.05);
-    /* transform: translateY(-3px); */
  }
   
 .copyright {
