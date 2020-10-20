@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke; 
+    cursor: pointer;
+}
+
+.app-background{
+    margin: 0 10%;
+    padding: 10px 0;
+  
+}
+
+
+
+.background{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.7;
+}
+
+
+
+.header_contacts{
+    padding: 15px 10%;
+    display: inline-flex;
+    width: 100%;
+    background-color: #001E38;
+    text-align: center;
+    position: relative;
+}
+
+.header_p{
+    font-size: .8em;
+    color: whitesmoke;
+}
+
+.header_contacts__details{
+    display: flex;
+    margin-left: 10%;
+}
+
+.info{
+    display: flex;
+    margin: 0 40px;
+    font-size: 1em; 
+    color: wheat;
+    align-content: space-around;
+}
+
+.icon{
+    margin-right: 15px;
+    
+}
+
+.icon_social{
+    color: whitesmoke;
+}
+
+li{
+    list-style: none;
+}
+
+
+.main_body{
+    background-image: linear-gradient(to bottom right, rgba(8, 8, 8, 0.466), rgba(0, 0, 0, 0.397)),url("./images/gal-3.jpeg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.owner{
+    position: relative;
+    height: 100px;
+    width: 200px;
+    color: whitesmoke;
+}
+
+.owner_name{
+    font-size: 50px;
+}
+
+.owner_agency{
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: rgba(245, 222, 179, 0.76);
+}
+
+.page_links{
+    margin-left: 300px;
+    padding-left: 100px;
+}
+
+
+.page_links a{
+    padding: 14px 16px;
+}
+
+.page_links a:hover{
+    border-bottom: 3px solid wheat;
+}
+
+.socials{
+    position: relative;
+}
+
+.social_links{
+    position: absolute;
+    bottom: .2px;
+}
+
