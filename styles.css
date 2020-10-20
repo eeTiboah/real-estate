@@ -248,7 +248,6 @@ body{
     text-align: center;
     padding: 1rem;
     background-color: #101d2c;
-    /* color: #fff; */
     color: #F5DE8E;
     font-weight: 400;
     transform: translateY(50%);
@@ -449,7 +448,7 @@ body{
   
 .copyright {
     font-size: 1.4rem;
-    color: #aaa;
+    color: #F5DE8E;
     margin-top: 6rem;
     margin-right: auto;
     margin-left: auto;
