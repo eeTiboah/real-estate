@@ -14,19 +14,25 @@
                 <p class="header_p">Welcome to Asher Consulting</p>
             </div>
             <div class="header_contacts__details">
-                <span class="info">
-                    <i class="fas fa-envelope icon"></i>
-                    <p class="header_p">info@asher.com</p>
-                </span>
-                <span class="info">
-                    <i class="fas fa-phone icon"></i>
-                    <p class="header_p">+233248569872</p>
-                </span>
+                <address>
+                    <a href="mailto:info@asher.com">
+                        <span class="info">
+                            <i class="fas fa-envelope icon"></i>
+                            <p class="header_p">info@asher.com</p>
+                        </span>
+                    </a>
+                </address>
+                <a href="tel:+233248569872">
+                    <span class="info">
+                        <i class="fas fa-phone icon"></i>
+                        <p class="header_p">+233248569872</p>
+                    </span>
+                </a>
                 <div class="socials">
                     <span class="info social_links">
-                        <a href="/" ><i class="fab fa-linkedin-in icon icon_social"></i></a>
-                        <a href="/" ><i class="fab fa-facebook-f icon icon_social"></i></a>
-                        <a href="/" ><i class="fab fa-google-plus-g icon icon_social"></i></a>
+                        <a href="https://www.linkedin.com" ><i class="fab fa-linkedin-in icon icon_social"></i></a>
+                        <a href="https://www.facebook.com" ><i class="fab fa-facebook-f icon icon_social"></i></a>
+                        <a href="https://www.google.com" ><i class="fab fa-google-plus-g icon icon_social"></i></a>
                     </span>
                 </div>
             </div>
@@ -47,9 +53,8 @@
                     </div>
                     <div class="page_links">
                         <a href="#" class="links">Home</a>
-                        <a href="#" class="links">About</a>
-                        <a href="#" class="links">Contact</a>
-                        <a href="#" class="links">Blog</a>
+                        <a href="#aboutus" class="links">About</a>
+                        <a href="#contactus" class="links">Contact</a>
                     </div>
                 </nav>
             </div>
@@ -196,11 +201,35 @@
           <br>
           
           <!-- The dots/circles -->
-          <!-- <div style="text-align:center">
+          <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
-          </div> -->
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+          </div>
+
+          <div id=aboutus class="about">
+              <div class="about_heading">
+                  <h1>About us</h1>
+              </div>
+          </div>
+
+          <div class="contact" id='contactus'>
+            <div class="contact_heading">
+                <h2>Send us a message</h2>
+            </div>
+            <div class="form_data">
+                <form>
+                    <input class="form_input" id="first-name" placeholder="First Name">
+                    <input class="form_input" id="last-name" placeholder="Last Name">
+                    <input class="form_input" id="email" placeholder="Email">
+                    <textarea class="form_text" id="message" placeholder="Enter your message" rows="4" cols="50"></textarea>
+                </form>
+            </div>
+          </div>
         <footer class="footer">
             <ul class="nav">
                     <li class="nav__item"><a href="#" class="nav__link">Find your dream home</a></li>
