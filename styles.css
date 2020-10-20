@@ -192,7 +192,7 @@ body{
 
 .btn {
     background-color: #101d2c;
-    color: #fff;
+    color: #F5DE8E;
     border: none;
     border-radius: 0;
     font-size: 1rem;
@@ -203,7 +203,7 @@ body{
 }
 .btn:hover {
     background-color: #F5DEB3; 
-    color: black;
+    color: #101d2c;
 }
 
 .heading{
@@ -248,7 +248,8 @@ body{
     text-align: center;
     padding: 1rem;
     background-color: #101d2c;
-    color: #fff;
+    /* color: #fff; */
+    color: #F5DE8E;
     font-weight: 400;
     transform: translateY(50%);
 }
@@ -432,10 +433,9 @@ body{
 }
 .nav__link:link, .nav__link:visited {
     font-size: 1.5rem;
-    color: #fff;
+    color: #F5DE8E;
     text-decoration: none;
-    /* font-family: "Josefin Sans", sans-serif; */
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     padding: 1rem;
     display: block;
